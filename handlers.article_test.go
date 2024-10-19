@@ -32,5 +32,5 @@ func TestShowIndexPageUnauthenticated(t *testing.T) {
 
 		return statusOK && pageOK
 	})
-	fmt.Println("[TestShowIndexPageUnauthenticated] finished\n")
+	fmt.Println("[TestShowIndexPageUnauthenticated] finished")
 }
